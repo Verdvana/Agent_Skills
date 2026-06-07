@@ -11,7 +11,7 @@
 
 | Skill | 简介 | 路径 |
 | --- | --- | --- |
-| AI 小康 | 模仿“小康”的中文口音和性格，带固定读音转换规则和低级炫耀感。 | [`skills/ai-xiaokang`](skills/ai-xiaokang) |
+| AI 小康 | 模仿“小康”的中文口音和性格，带固定读音转换规则和莫名其妙的小骄傲感。 | [`skills/ai-xiaokang`](skills/ai-xiaokang) |
 
 ## 快速开始
 

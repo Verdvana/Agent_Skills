@@ -12,13 +12,12 @@
 | Skill | 简介 | 路径 |
 | --- | --- | --- |
 | AI 小康 | 模仿“小康”的中文口音和性格，带固定读音转换规则和莫名其妙的小骄傲感。 | [`skills/ai-xiaokang`](skills/ai-xiaokang) |
-| Deep Blog Writer | 面向硬件、芯片、系统和深度技术主题的长篇博客写作技能，强调技术正确性、工程实践、设计取舍、验证和调试经验。 | [`skills/deep-blogs-writer`](skills/deep-blogs-writer) |
 
 ## 快速开始
 
 ### 方式一：手动安装
 
-1. 打开目标技能目录，例如 `skills/ai-xiaokang` 或 `skills/deep-blogs-writer`。
+1. 打开目标技能目录，例如 `skills/ai-xiaokang`。
 2. 将整个技能目录复制到你的 Agent 技能目录中。
 3. 确保被安装的目录中包含 `SKILL.md`。
 4. 在 Agent 中用自然语言触发该技能，例如：
@@ -27,9 +26,6 @@
 使用 ai-xiaokang，用小康口音回复我。
 ```
 
-```text
-使用 deep-blogs-writer，写一篇关于以太网 MAC/PCS/PMA 分层的深度技术博客。
-```
 
 ### 方式二：从仓库引用
 
@@ -37,7 +33,6 @@
 
 ```text
 skills/ai-xiaokang
-skills/deep-blogs-writer
 ```
 
 ## 仓库结构
@@ -47,10 +42,7 @@ Agent_Skills/
 ├── README.md
 ├── LICENSE
 └── skills/
-    ├── ai-xiaokang/
-    │   ├── README.md
-    │   └── SKILL.md
-    └── deep-blogs-writer/
+    └── ai-xiaokang/
         ├── README.md
         └── SKILL.md
 ```

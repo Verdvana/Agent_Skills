@@ -63,8 +63,17 @@ Intro paragraph.
 - Use HTML tables when the table needs complex presentation, such as color grouping, merged cells, custom alignment, or richer formatting.
 - Keep table content factual and easy to scan.
 
+## Math
+
+- Any formula, equation, derivation, recurrence, probability expression, matrix, summation, fraction, congruence, set expression, or mapping must use Markdown-supported LaTeX.
+- Use Markdown display math with `$$...$$` for formulas. This is the default for article formulas, even when the formula is short.
+- Use inline math with `$...$` only for simple symbols, variable names, or compact identifiers such as `$x_i$`, `$g(x)$`, and `$GF(2^m)$`; do not use inline math for full formulas or derivations.
+- Do not write technical formulas only as plain text. For example, prefer `$$a_{m-1}x^{m-1}+\cdots+a_0$$` over `a_{m-1}x^{m-1} + ... + a_0` in a code block.
+- Use code blocks only for literal code, bit patterns, terminal output, register layouts, or ASCII diagrams. Do not use code blocks as a substitute for mathematical typesetting.
+
 ## Images
 
+- Prefer a visual-rich article when the topic benefits from it. Avoid long stretches of dry text when a diagram, table, timeline, or comparison image can make the explanation clearer.
 - Use images where they help explain structure, flow, architecture, comparison, chronology, or abstract concepts.
 - Except for flowcharts, finite-state-machine transition diagrams, and timing diagrams, all diagrams should be generated as bitmap images with an image generation engine such as `image2` or `banama/banana` when available.
 - If image generation is unavailable, place the image-generation prompt at the intended image location so the user can generate it manually later.
@@ -92,6 +101,12 @@ Suggested fallback format when no image can be generated:
 - Keep factual claims rigorous, logically consistent, and credible.
 - If a claim is uncertain, time-sensitive, or source-dependent, verify it before using it or clearly mark the uncertainty.
 
+## Local Markdown Sources
+
+- Do not reference, imitate, adapt, summarize, or borrow the writing format, structure, wording, examples, arguments, images, tables, or content from any existing local `.md` article.
+- Existing local Markdown files may be used only when the user explicitly identifies a specific `.md` file as the input to edit, rewrite, review, or continue. In that case, use only the user-specified file and do not inspect other local `.md` articles for style or content.
+- When creating a new article, rely on this skill's rules, user-provided requirements, verified external sources when needed, and original explanation rather than local article precedents.
+
 ## Formatting Restraint
 
 - Use lists for comparisons, steps, and dense facts.
@@ -115,5 +130,8 @@ Before finishing a post, check:
 - Every first-level section is preceded by `----`.
 - The article ends with `----`.
 - References are in the final chapter.
+- No existing local `.md` article was used as a style, structure, wording, or content reference unless the user explicitly provided that exact file as the work target.
 - No unsupported factual claims remain.
+- Formulas, equations, and derivations use Markdown LaTeX display math with `$$...$$`, not plain-text approximations, inline-only formulas, or code blocks.
+- The article is not a wall of text; key structures, mechanisms, comparisons, or timelines have useful visuals, tables, or image prompts where appropriate.
 - Image prompts or image links are present where helpful.

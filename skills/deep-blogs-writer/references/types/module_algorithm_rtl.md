@@ -1,6 +1,6 @@
-# Module Algorithm, Function Analysis, And RTL Implementation
+# RTL Implementation Requested By The Prompt
 
-Use this type for posts about a specific module's algorithm, function, architecture, interface, timing behavior, RTL implementation, verification, and design tradeoffs.
+Use this type only when the prompt explicitly asks to implement something in RTL, write RTL/SystemVerilog, or produce RTL-oriented implementation and verification content. If the prompt asks for technical analysis without RTL implementation, use the technology research type instead.
 
 ## Default Article Structure
 

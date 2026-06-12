@@ -18,10 +18,10 @@ description: Use when writing, editing, outlining, or polishing long-form Chines
 
 ## Blog Type Routing
 
-- **Module algorithm/function analysis and RTL implementation**: read `references/types/module_algorithm_rtl.md`.
-  Use for posts focused on a specific module's algorithm, function, architecture, interface, timing behavior, RTL design, implementation details, verification points, or design tradeoffs.
-- **Chip, FPGA, AI, network, and technical research**: read `references/types/technology_research.md`.
-  Use for introductory or deep research posts about chips, FPGA, AI, networking, computer systems, protocols, architectures, engineering tools, and related technologies.
+- **RTL implementation requested by the prompt**: read `references/types/module_algorithm_rtl.md`.
+  Use only when the prompt explicitly asks to implement something in RTL, write RTL/SystemVerilog, or produce RTL-oriented implementation and verification content.
+- **Chip, FPGA, algorithm, AI, network, hardware design, and technical research**: read `references/types/technology_research.md`.
+  Use for other technical analysis or research posts, including chips, FPGA, algorithms, AI, networking, chip internal interconnect buses, hardware design, computer systems, protocols, architectures, engineering tools, and related technologies, when the prompt does not ask for RTL implementation.
 - **Finance, investment, and market analysis**: read `references/types/finance_investment_market.md`.
   Use for introductory or deep research posts about finance, investing, markets, macro, policy impact on markets, companies, assets, brokers, crypto markets, and market structure.
 

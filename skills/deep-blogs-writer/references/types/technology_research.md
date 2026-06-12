@@ -1,6 +1,6 @@
-# Chip, FPGA, AI, Network, And Technology Research
+# Chip, FPGA, Algorithm, AI, Network, Hardware Design, And Technology Research
 
-Use this type for introductory and deep research posts about technical fields such as chips, FPGA, AI, networking, protocols, datacenter systems, computer architecture, and engineering tools.
+Use this type for technical analysis and research posts when the prompt does not explicitly ask for RTL implementation. This includes chips, FPGA, algorithms, AI, network technologies, chip internal interconnect buses, hardware design, protocols, datacenter systems, computer architecture, and engineering tools.
 
 The article should be systematic technical research, not an encyclopedia entry. Do not write as a list of terms followed by shallow definitions.
 

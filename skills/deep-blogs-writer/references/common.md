@@ -41,6 +41,13 @@ tags:
 - The article must also end with `----`.
 - Do not use `#` headings inside the body, because the front matter title already defines the post title.
 
+## Heading Style
+
+- Prefer concise, declarative headings that name the topic, mechanism, tradeoff, or conclusion.
+- Avoid using question-style headings such as `为什么...`, `如何...`, `是否...`, or `...是什么` as the dominant heading pattern.
+- If a section is driven by a question, put that question in the opening sentence or paragraph of the section, then use the body to answer it.
+- Occasional question headings are acceptable only when they are intentionally used for emphasis and do not make the article's table of contents look fragmented or repetitive.
+
 Example:
 
 ```markdown
